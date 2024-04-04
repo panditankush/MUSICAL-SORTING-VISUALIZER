@@ -1,0 +1,95 @@
+
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bar{
+    background-color: gold;
+    margin: 1px;
+}
+
+.CompCurrBar{
+    background-color: greenyellow;
+}
+
+.SwapCurrBar{
+    background-color: Red;
+}
+
+#buttons{
+    width: auto;
+    margin-top: 10px;
+    height: auto;
+    flex-direction: row;
+    border: 2px border black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#refBtn{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.3);
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+}
+
+#algos{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.3);
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    padding: 2px;
+}
+
+#sortBtn{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.3);
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+}
+
+#refBtn:hover, #sortBtn:hover, #algos:hover{
+    background-color: rgba(0,0,0,0.7);
+}
+
+#container{
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: column;
+}
